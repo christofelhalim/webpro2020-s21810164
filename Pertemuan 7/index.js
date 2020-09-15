@@ -1,5 +1,5 @@
 // JAVASCRIPT CONDITIONAL
-/*
+
 //1.if/else if/else
     let nilaiKobe = 90;
 
@@ -10,9 +10,9 @@
     }else {
         console.log("Jangan menyerah, Tetap Berjuang");
     }
-*/
 
-/*
+
+
 //2.Switch dan Case
 let latihanbasket;
 let hari = "senin";
@@ -38,10 +38,10 @@ switch (hari) {
 }
 console.log(latihanbasket); 
 
-*/
 
 
-/*
+
+
 // CONTOH LAIN JIKA HARI SENIN SAMPAI KAMIS HANYA ADA LATIHAN SHOOTING
 let latihanbasket;
 let hari = "senin";
@@ -63,7 +63,7 @@ switch (hari) {
 console.log(latihanbasket);
 
 
-*/
+
 
 
 
@@ -77,7 +77,8 @@ console.log(latihanbasket);
     }
     
 
-/*
+
+// for...in digunakan untuk mengulang setiap properti dari sebuah objek.
 //2.FOR/IN LOOP
 const buku = {
     judul: "Harry Potter and The Philosopher's Stone",
@@ -88,8 +89,8 @@ const buku = {
    console.log(x, ':', buku[x]);
  }
 
- */
-
+ 
+//Berbeda dengan for loop dari topik sebelumnya, for...of digunakan untuk mengulang setiap element dari objek yang bisa diulang (contoh array atau string).
 //3.FOR/OF LOOP
 
 const buku = ["Game of Thrones: A Song of Ice and Fire",  
@@ -101,7 +102,7 @@ for (x of buku) {
   console.log(x);
 }
 
-/*
+
 //4.WHILE LOOP
 let i = 1;
 
@@ -109,8 +110,9 @@ while (i <= 10) {
   console.log(i);
   i++;
 }
+//while (kondisi) berarti ketika kondisi yang ditentukan benar (true), maka jalankan semua kode yang ada di dalam {}.
 
-*/
+
 
 //5.DO WHILE LOOP
 let i = 1;
