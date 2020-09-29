@@ -5,7 +5,7 @@
         return "selamat pagi";
     }
 */
-
+  /*
 //dibawah ini merupakan FUNCTION dengan Parameter
 //Syntax Arrow Function
     const operasiPenjumlahan = (number1, number2) => {
@@ -41,4 +41,22 @@ function greeting(nama) {
 const namaFungsi = () => nilaiReturn;
 //Jadi kita tidak lagi perlu capek-capek menulis kurung kurawal {} dan kata return lagi.
 
- 
+ */
+
+
+
+
+ //_____________________________________________________________________________________________________________________________
+//EXERCISE
+//Convert to ES6 syntax
+//function yearUntilRetirement(year,firstname){
+const  yearUntilRetirement= (year=2020, firstname="steph") => {
+  let age =28;
+  let retirement = 65 - age;
+  if (retirement > 0){
+      console.log(firstName+ " retired in" + retirement + " years");
+  }else {
+      console.log(firstName + " is already retired.");
+  }
+}
+yearUntilRetirement();
