@@ -38,4 +38,12 @@ const calAge=(birthYear,currentYear= 2020)=> currentYear-birthYear
 console.log(calcAge(1991,2021));
 */
 
-
+const yearsUntilRetirement = (year , firstName ="Halim") => { // Arrow Function & Default
+    const age =`${28}`;  //Template Literal
+    const retirement = 65 - age;
+    if (retirement > 0) {
+      console.log(` ${firstName} retired in ${retirement} years` );
+    }
+  }
+  
+  yearsUntilRetirement(2000);

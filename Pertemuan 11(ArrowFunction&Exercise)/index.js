@@ -45,7 +45,7 @@ const namaFungsi = () => nilaiReturn;
 
 
 
-
+/*
  //_____________________________________________________________________________________________________________________________
 //EXERCISE
 //Convert to ES6 syntax
@@ -60,3 +60,4 @@ const  yearUntilRetirement= (year=2020, firstname="steph") => {
   }
 }
 yearUntilRetirement();
+*/
