@@ -14,7 +14,7 @@ const Person = {
 // Person.displayFullName();
 */
 //dibawah ini masih blueprint blm object
-
+/*
 class Person{
     //dibawah ini cara mendefinisikan properti
     constructor(firstName, lastName){
@@ -56,11 +56,11 @@ class Person{
     stephen.displayFullName();
     stephen.displayNIM();
 */
- 
+ /*
 //Static Member
 class student extends Person{
     constructor(firstName, lastName,NIM,age){
-        super(firstName,lastName);
+            super(firstName, lastName);
             this.NIM = NIM;
             this.age = age;
     }
@@ -73,7 +73,6 @@ class student extends Person{
         console.log(`Your NIM is ${this.NIM}`);
     }
     //Setter dan Getter
-
     //dibawah ini setter dan getter
     set studentScore(score){
         this.score = score;
@@ -92,3 +91,4 @@ Student.sayHello();
 
 stephen.studentScore = 90;
 console.log(stephen.studentScore);
+*/

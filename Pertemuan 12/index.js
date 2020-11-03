@@ -20,7 +20,7 @@ console.log(calAge());
 */
 
 
-/*
+
 //contoh lain menghitung umur dari setiap tahun dibawah
 //menggunakan metode map
 const years=[1990,1992,2001,2005];
@@ -29,7 +29,7 @@ const calAge5 = years.map(function(el){
     return 2020-el;
 });
 console.log(calAge5);
-*/
+
 
 /*
 //Default parameter
