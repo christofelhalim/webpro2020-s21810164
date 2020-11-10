@@ -1,11 +1,12 @@
 //=====================BAGIAN 1=====================
-/*
+
 //Nomor1
 const calculateAge = (birthYear)=> {
+  return 2019 - birthYear;
 }
  
 const yearUntilRetirement = (object) => {
-	const age = calculateAge(object.year);
+	const age = calculateAge(object.birthYear);
 	const retirement = 60 - age;
    
 	if(retirement > 0){
@@ -16,7 +17,7 @@ const yearUntilRetirement = (object) => {
 }
  
 yearUntilRetirement({birthYear: 1987, firstName: 'John'});
-*/
+
 
 /*
 //Nomor 2
@@ -71,12 +72,12 @@ makeAjaxRequest(`www.google.com`);
 //Nomor1
 const WarnaKesukaan =(warna='putih') =>{
 	return console.log(`Warna kesukaan saya adalah ${warna}`)
-	}
+	
 	
 	WarnaKesukaan('hitam');
 
-*/
 
+*/
 
 //Nomor 2
 /*
