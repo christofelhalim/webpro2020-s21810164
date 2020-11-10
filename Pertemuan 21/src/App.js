@@ -1,26 +1,23 @@
-
 import "./App.css"; 
-import Header from "./Components/Header";
-import Hello from "./Components/Hello";
-import Content from "./Components/Content";
-
-
-
-//cara arrow function
-
-
-
+import Card from "./components/Card";
+import {person} from './Utils/person';
 
 
 function App() {
   return (
-    <>
-      <Header/>
-      <Hello/> 
-      <Content/>
-  </>
+   <>
+       {person.map((item) => {
+          return (
+            <Card
+              name= {item.name}
+              institution= {item.institution}
+              address= {item.address}
+              phoneNumber= {item.phoneNumber}
+          />
+          );
+       })}
+       </>
   );
- 
 }
 
 export default App;
