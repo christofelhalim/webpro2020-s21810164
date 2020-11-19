@@ -1,4 +1,4 @@
-/*import react from 'react'
+import react from 'react'
 
 const Content = () =>{
   return(
@@ -17,4 +17,3 @@ const Content = () =>{
 };
 
 export default Content;
-*/

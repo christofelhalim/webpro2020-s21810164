@@ -1,3 +1,6 @@
+
+
+/*
 import "./App.css"; 
 import Card from "./components/Card";
 import Counter from "./components/Counter";
@@ -16,10 +19,11 @@ function App() {
               phoneNumber= {item.phoneNumber}
           />
           );
-       })}*/}
+       })}}
       <Counter title = "Counter Component"/>
        </>
   );
 }
 
 export default App;
+*/

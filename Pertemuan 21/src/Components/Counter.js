@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+/*import React, { useState, useEffect } from "react";
 
 
 /*
@@ -43,7 +43,7 @@ class Counter extends Component{
 }
 */
 //mengubah nama componen dengan menggunakan function
-
+/*
 const counter = (props) => {
     
     const[number, setNumber] =useState(0);
@@ -75,3 +75,4 @@ const counter = (props) => {
 export default Counter;
 
 
+*/

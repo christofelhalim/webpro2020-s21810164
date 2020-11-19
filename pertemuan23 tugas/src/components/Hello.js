@@ -1,4 +1,4 @@
-/*import React from "react";
+import React from "react";
 import { cekTahun, cekHari} from '../Utils/Waktu'
 
 const Hello = () => {
@@ -13,4 +13,3 @@ const Hello = () => {
   };
 
   export default Hello;
-  */

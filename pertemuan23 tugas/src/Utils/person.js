@@ -1,4 +1,4 @@
-/*export const person = [
+export const person = [
     {
       name: "Halim Christofel",
       institution: "Universitas klabat",
@@ -18,4 +18,3 @@
        phoneNumber: "0003", 
     },
   ];
-  */

@@ -1,4 +1,4 @@
-/*import React from "react";
+import React from "react";
 
 const Card = ({name, institution, address, phoneNumber}) => {
     return (
@@ -11,4 +11,4 @@ const Card = ({name, institution, address, phoneNumber}) => {
     );
 };
 
-export default Card;*/
+export default Card;

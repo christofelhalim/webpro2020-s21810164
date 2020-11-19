@@ -1,4 +1,4 @@
-/*
+
 export const cekTahun = () => {
     return new Date().getFullYear();
 };
@@ -6,5 +6,3 @@ export const cekTahun = () => {
  export const cekHari = () =>{
     return new Date().getDate();
   };
-
-  */
